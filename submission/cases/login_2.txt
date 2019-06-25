@@ -1,0 +1,17 @@
+# user 1
+#
+create fang hao 1000000
+login fang h 
+login fang hao
+login abc abd
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user fang
+Login failed
+Logged in as fang
+User already logged in
+Goodbye
+*

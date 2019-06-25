@@ -1,0 +1,17 @@
+# user 1
+#
+create fang hao 1000000
+create fang haha 1000000
+create 123 123 -123
+create asdfadsfadsfasdfadsfadsfadsfafd sdf 9
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user fang
+Failed to create user
+Failed to create user
+Failed to create user
+Goodbye
+*

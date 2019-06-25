@@ -1,0 +1,37 @@
+# user 1
+#
+cancel 1
+create fang hao 1000000
+login fang hao
+cancel 2
+search "Seattle WA" "Boston MA" 1 1 1
+book 0
+search "Seattle WA" "Boston MA" 1 3 2
+book 1
+pay 1
+cancel 1
+cancel 2
+cancel 2
+quit
+*
+#
+# expected printouts for user 1
+#
+Cannot cancel reservations, not logged in
+Created user fang
+Logged in as fang
+Failed to cancel reservation 2
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Booked flight(s), reservation ID: 1
+Itinerary 0: 1 flight(s), 303 minutes
+ID: 704187 Day: 3 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 303 Capacity: 17 Price: 421
+Itinerary 1: 1 flight(s), 304 minutes
+ID: 60456 Day: 3 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 304 Capacity: 14 Price: 876
+Booked flight(s), reservation ID: 2
+Paid reservation: 1 remaining balance: 999860
+Canceled reservation 1
+Canceled reservation 2
+Failed to cancel reservation 2
+Goodbye
+*
