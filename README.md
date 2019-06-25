@@ -1,4 +1,4 @@
-# CSE 414 Homework 8: Database Application and Transaction Management
+# Database Application and Transaction Management
 
 **Objectives:**
 To get experience with database application development and transaction management.
